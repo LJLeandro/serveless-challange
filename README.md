@@ -9,7 +9,7 @@
 5. Executar o comando 'terraform init' > 'terraform validate' > 'terraform apply'
 6. Acessar a URL que será retornada no Output adicionando o caminho 'v1/todos'
 7. Comandos disponiveis:
-    > POST
+    7.1 POST
         > JSON de Exemplo:
             {
                 "Id": 1,
@@ -17,10 +17,10 @@
                 "Nome": "Lucas Jose Leandro",
                 "Idade": 25
             }
-    > GET 
+    7.2 GET 
         v1/todos 
         v1/todos/1 ou v1/todos/{ID desejado}
-    > PUT
+    7.3 PUT
         > JSON de Exemplo:
             {
                 "Id": 1,
@@ -28,7 +28,7 @@
                 "Nome": "Lucas Jose Leandro",
                 "Idade": 25
             }
-    > DELETE
+    7.4 DELETE
         > JSON de Exemplo:
             {
                 "Id": 1
